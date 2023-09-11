@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign-up for free</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- main javascript -->
+    <script src="assets/js/main.js"></script>
+
+    <style>
+    body {
+        background: #2b32b2;
+        background: -webkit-linear-gradient(191deg, #2b32b2 0%, #1488cc 100%);
+        background: linear-gradient(191deg, #2b32b2 0%, #1488cc 100%);
+    }
+    </style>
+</head>
+
+<body class="p-3" style="min-height: 100vh;">
+    <form action="javascript:void(0)" method="POST" class="container mx-auto border bg-white rounded">
+        <h2 class="p-2">Create account for free</h2>
+        <hr>
+        <div class="my-3">
+            <label for="fname" class="form-label">First name</label>
+            <input required type="text" id="fname" name="fname" class="form-control">
+        </div>
+
+        <div class="my-3">
+            <label for="lname" class="form-label">Last name</label>
+            <input required type="text" id="lname" name="lname" class="form-control">
+        </div>
+
+        <div class="my-3">
+            <label for="username" class="form-label">Username</label>
+            <input required type="text" id="username" name="username" class="form-control">
+        </div>
+
+        <div class="my-3">
+            <label for="password" class="form-label">Password</label>
+            <div class="position-relative">
+                <input required type="password" id="password" name="password" class="form-control">
+                <i id="eye" class="fa fa-eye-slash position-absolute top-50% right-20px transform-translate-y-N50%"></i>
+            </div>
+
+        </div>
+
+        <div class="my-3">
+            <label for="cpassword" class="form-label">Confirm password</label>
+            <input required type="password" id="cpassword" name="cpassword" class="form-control">
+        </div>
+
+        </div>
+
+        <div class="d-flex align-items-center justify-between">
+            <div class="d-flex align-items-center">
+                <input required id="checkbox1" type="checkbox">&nbsp;
+                <label for="checkbox1" class="fs-6">Agree to <a href="#">Terms & Conditions</a> and <a href="#">Privacy
+                        Policy</a></label>
+            </div>
+        </div>
+
+        <div class="my-3">
+            <button type="submit" class="btn-primary">Signup now</button>
+        </div>
+
+        <p class="text-center fs-6">
+            Already have an account? <a href="./index.php" class="text-secondary">Sign-in now</a>
+        </p>
+
+    </form>
+
+</body>
+
+</html
